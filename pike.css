@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "Case-text";
+    src: url('./Akkordeon-DEMO.otf');
+}
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.page--wrapper {
+    display: flex;
+}
+
+.wrapper {
+    width: 500px;
+    height: 860px;
+    position: relative;
+    overflow: hidden;
+    background-image: url('./12pro\ max.png');
+    background-position: 55%;
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+    transform: rotate(15deg) translate(-50%, -50%);
+}
+
+.text {
+    font-size: 60pt;
+    letter-spacing: 1px;
+    line-height: 100%;
+    text-transform: uppercase;
+    font-family: "Case-text";
+    text-shadow: 4px 4px 0 #ffc625, 3px 3px 0 #ffc625, 2px 2px 0 #ffc625, 1px 1px 0 #ffc625, 0 0 0 #ffc625;
+}
+
+.hide {
+    opacity: 0;
+}
+
+.reverse {
+    flex-flow: row-reverse;
+}
+
+.pike-input {
+    padding: 10px 20px;
+}
+
+.img-container {
+    position: absolute;
+    top: -8%;
+    left: -55%;
+    width: 775px;
+    overflow: hidden;
+}
+
+.row {
+    height: 55px;
+}
+
+.color-range{
+    display: flex;
+}
+
+.color-picker{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    border: solid 2px black;
+}
+
+.pink{
+    background-color: pink;
+}
+.yellow{
+    background-color: #ffc625;
+}
+.green{
+    background-color: green;
+}
